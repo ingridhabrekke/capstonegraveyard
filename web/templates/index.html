@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Capstone Graveyard</title>
+    {% assets 'main_css' %}
+        <link rel="stylesheet" href="{{ ASSET_URL }}"/>
+    {% endassets %}
+</head>
+
+<body class="min-h-screen">
+
+
+
+<div class="bg-purple-700 mr-0 py-5">
+    <div class=" flex items-center justify-center">
+        <h2 class="text-2xl text-white">The Capstone Graveyard</h2>
+    </div>
+</div>
+<!-- Search Bar -->
+
+<!-- Page Body -->
+<div class="flex min-h-screen justify-center items-center" style="background-image: url('https://cdnb.artstation.com/p/assets/images/images/027/066/927/large/elle-lansen-graveyard-background.jpg?1590503318');">
+    <div class="flex min-h-screen bg-black bg-opacity-70 w-full justify-center items-center">
+        <a href="/add" class="p-4 m-5 bg-gray-300 rounded-md">Leave your Idea</a>
+        <a href="/browse" class="p-4 m-5 bg-gray-300 rounded-md">Browse Ideas</a>
+    </div>
+</div>
+
+
+</body>
+</html>
